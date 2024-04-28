@@ -1,0 +1,49 @@
+.container {
+    position: sticky;
+}
+
+.home-content {
+    height: 69vh;
+    background-image: url('../../../../public/images/herb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.home-content1 {
+    position: absolute;
+    bottom: 2px;
+    left: 200px;
+    padding: 0;
+}
+
+.home-content2 {
+    position: absolute;
+    bottom: 3px;
+    left: 1100px;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+.home-content h1 {
+    position: absolute;
+    left: 800px;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    /* font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal; */
+
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    /* font-style: oblique; */
+} 
+
+
+

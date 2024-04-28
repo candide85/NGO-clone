@@ -1,0 +1,42 @@
+.header-content {
+    width: 100%;
+    height: 12vh;
+    background: rgb(240, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content .navbar-item {
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+}
+
+.header-content .navbar-item li {
+    cursor: pointer;
+    margin: 15px;
+    list-style: none;
+    font-size: 22px;
+    display: inline-block;
+      font-family: "Poppins", sans-serif;
+    /* font-weight: 800; */
+    font-style: normal;
+
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.search-box input {
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    width: 300px;
+}
+
