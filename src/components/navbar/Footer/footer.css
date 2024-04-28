@@ -10,6 +10,23 @@
     bottom: 0;
 } */
 
+.footer-content .sociaux-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    width: 100%;
+}
+
+.footer-content .sociaux-link a img{
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* .footer-content .sociaux-link a{
+    cursor: pointer;
+} */
+
 .footer-content {
     display: flex;
     flex-direction: column;
@@ -29,6 +46,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 7px;
 }
 
 .footer-content .part1 hr {
